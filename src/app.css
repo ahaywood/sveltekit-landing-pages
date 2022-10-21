@@ -1,0 +1,18 @@
+@import './prism.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  svg {
+    @apply fill-current
+  }
+}
+
+@layer components {}
+@layer utilities {
+  .center {
+    @apply flex justify-center items-center;
+  }
+}
